@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        >
+        <EditText android:id="@+id/txtName" android:hint="Tên sản phẩm" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/txtModel" android:hint="Model" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/txtPrice" android:hint="Giá gốc" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/txtDiscount" android:hint="Giá giảm" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/txtLength" android:hint="Chiều dài ống (cm)" android:inputType="numberDecimal" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/txtFocal" android:hint="Tiêu cự (mm)" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/txtWeight" android:hint="Trọng lượng (kg)" android:inputType="numberDecimal" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/txtAperture" android:hint="Đường kính (mm)" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/txtEyepieces" android:hint="Thị kính" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/txtExtra" android:hint="Thông tin thêm" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:text="Lưu"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
+
