@@ -9,7 +9,7 @@ public class DBConnection {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection(
-                    "jdbc:mysql://192.168.43.65:3306/telescope_store",
+                    "jdbc:mysql://10.0.2.2:3306/telescope_store",
                     "androiduser1", "123456"
             );
         } catch (Exception e) {
