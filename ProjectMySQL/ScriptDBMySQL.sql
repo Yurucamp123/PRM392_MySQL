@@ -16,9 +16,6 @@ CREATE TABLE telescope_products (
 );
 
 CREATE USER 'androiduser1'@'%' IDENTIFIED BY '123456';
-GRANT ALL PRIVILEGES ON telescope_store.* TO 'androiduser'@'%';
-FLUSH PRIVILEGES;
-
 GRANT ALL PRIVILEGES ON telescope_store.* TO 'androiduser1'@'%';
 FLUSH PRIVILEGES;
 
